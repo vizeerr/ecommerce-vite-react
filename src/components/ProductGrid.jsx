@@ -5,10 +5,9 @@ import { Link } from "react-router-dom";
 
 function ProductGrid() {
   return (
-    <div className="mt-16">
+    <div className="mt-10">
         <div className="inline-flex items-center justify-between w-full px-3">
-          <h1 className="sm:text-4xl font-medium text-center text-xl ">| Our Products</h1>
-        <Link to={"/all-products"}> <p className="sm:text-base text-xs text-blue-700 font-medium">View More</p></Link>
+          <h1 className="sm:text-4xl font-medium text-center text-2xl ">| All Products</h1>
     </div>
 
     <div className="flex flex-wrap p-8 gap-12">

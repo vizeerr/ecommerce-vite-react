@@ -28,11 +28,18 @@ export default function TopNavBar() {
       </div>
       <Navbar.Collapse>
         {/* All Links */}
+        <Navbar.Link>
         <Link to="/" active>
           Home
         </Link>
+        </Navbar.Link>
+        <Navbar.Link>
         <Link to="/all-products">All Products</Link>
+        </Navbar.Link>
+        <Navbar.Link>
         <Link to="/cart">Cart</Link>
+        </Navbar.Link>
+        
       </Navbar.Collapse>
     </Navbar>
   );
